@@ -1,0 +1,57 @@
+main {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+/* header style */
+header {
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    margin-top: 20px;
+
+}
+
+
+.navigation-button {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+/* Brand New Group of Architects Style */
+
+.brand-new {
+    width: 100%;
+    text-align: center;
+
+}
+
+.brand-title {
+    font-weight: bolder;
+}
+
+.brand-button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+}
+
+.brand-image {
+    margin-top: 20px;
+}
