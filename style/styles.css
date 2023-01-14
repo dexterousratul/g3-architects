@@ -8,7 +8,8 @@ header {
     margin: 20px;
 
     display: flex;
-    justify-content: space-between;
+   justify-content: space-between;
+
 }
 
 .navigation {
@@ -37,7 +38,7 @@ header {
     font-weight: bolder;
 }
 
-.brand-button {
+.button {
     background-color: orangered;
     border: none;
     color: white;
@@ -54,4 +55,51 @@ header {
 
 .brand-image {
     margin-top: 20px;
+}
+
+
+/* Quick list of Our Features Style */
+
+.quick-list{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Features you will love & enjoy Style */
+.love{
+    display: flex;
+    justify-items: center;
+}
+
+/* Some Facts Style */
+.facts-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+/* Our Sponspors Style */
+.sponsor{
+    text-align: center;
+
+}
+.sponsor-img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+/* Footer style */
+footer{
+    font-size: medium;
+    text-align: center;
+    background-color: burlywood;
+    position: absolute;
+width: 1440px;
+height: 70px;
+left: 120px;
+right:120px
+
 }
