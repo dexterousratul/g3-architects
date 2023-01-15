@@ -172,51 +172,64 @@ footer {
     font-size: medium;
     text-align: center;
     background-color: burlywood;
-    
+
 }
 
 /* mobile responsive */
 
 @media only screen and (max-width: 688px) {
-    header{
+
+
+    header {
         display: flex;
         flex-direction: column;
     }
-    .navigation{
+
+    .navigation {
         display: flex;
         flex-direction: column;
     }
-    .brand img{
+
+    .brand img {
         width: 100%;
     }
-    .quick-list{
+
+    .quick-list {
         display: flex;
         flex-direction: column-reverse;
     }
-    .love{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .love img{
-        width: 100%;
-    }
-    .section-facts{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-.sponsor-img{
-    display: flex;
-    flex-direction: column;
-}
-.footer{
-    
 
-  
-}
-.foot{
-    width: 100%;
-    text-align: center;
-}
+    .love {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .love img {
+        width: 100%;
+    }
+
+    .section-facts {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+    .facts-paragraph {
+        width: 50%;
+        text-align: left;
+    }
+
+    .sponsor-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .foot {
+        width: 100%;
+        text-align: center;
+    }
 }
