@@ -1,6 +1,6 @@
 main {
     margin: 5%;
-    
+
 }
 
 /* header style */
@@ -8,7 +8,7 @@ header {
     margin: 20px;
 
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 
 }
 
@@ -28,9 +28,10 @@ header {
 
 /* Brand New Group of Architects Style */
 
-.brand{
+.brand {
     margin-bottom: 30px;
 }
+
 .brand-new {
     width: 100%;
     height: 225px;
@@ -56,7 +57,8 @@ header {
 
 
 }
-section .brand img{
+
+section .brand img {
     width: 1440;
     height: 700px;
 }
@@ -66,7 +68,7 @@ section .brand img{
 
 /* Quick list of Our Features Style */
 
-.quick-list{
+.quick-list {
     display: flex;
     align-items: center;
 }
@@ -76,29 +78,31 @@ section .brand img{
 /* Features you will love & enjoy Style */
 
 
-.love{
-    
+.love {
+
     display: flex;
     justify-items: center;
     margin-top: 30px;
-   
-    
-}
-.enjoy:{
-   text-align: center;
-   margin-right: 80px;
+
+
 }
 
-.love-img{
+.enjoy {
+    text-align: left;
+    margin-right: 80px;
+}
+
+.love-img {
     position: relative;
-  width: 50%;
+    width: 50%;
 }
 
-  section .love img{
+section .love img {
     width: 708px;
     height: 982px;
-  }
- .section-love-button{
+}
+
+.section-love-button {
     position: absolute;
     bottom: 1%;
     left: 1%;
@@ -108,28 +112,30 @@ section .brand img{
     font-size: large;
     border-radius: 5px;
     text-align: left;
- }
+}
 
 /* Some Facts Style */
-.section-facts{
+.section-facts {
     margin-bottom: 20px;
 
 }
-.some-facts{
+
+.some-facts {
     width: 542px;
     height: 82px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.facts-img{
+.facts-img {
     margin-top: 40px;
     margin-bottom: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
-.section-love-button{
+
+.section-love-button {
     background-color: orangered;
     border: none;
     color: white;
@@ -140,19 +146,21 @@ section .brand img{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    
+
 }
 
 /* Our Sponspors Style */
-.section-sponsor{
+.section-sponsor {
     margin-top: 20px;
     margin-bottom: 60px;
 }
-.sponsor{
+
+.sponsor {
     text-align: center;
 
 }
-.sponsor-img{
+
+.sponsor-img {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -160,14 +168,13 @@ section .brand img{
 }
 
 /* Footer style */
-footer{
+footer {
     font-size: medium;
     text-align: center;
     background-color: burlywood;
     position: absolute;
-width: 1440px;
-height: 70px;
-left: 120px;
-right:120px
-
+    width: 1440px;
+    height: 70px;
+    left: 120px;
+    right: 120px
 }
