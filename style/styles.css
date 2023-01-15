@@ -172,9 +172,51 @@ footer {
     font-size: medium;
     text-align: center;
     background-color: burlywood;
-    position: absolute;
-    width: 1440px;
-    height: 70px;
-    left: 120px;
-    right: 120px
+    
+}
+
+/* mobile responsive */
+
+@media only screen and (max-width: 688px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    .brand img{
+        width: 100%;
+    }
+    .quick-list{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .love{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .love img{
+        width: 100%;
+    }
+    .section-facts{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+.sponsor-img{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    
+
+  
+}
+.foot{
+    width: 100%;
+    text-align: center;
+}
 }
